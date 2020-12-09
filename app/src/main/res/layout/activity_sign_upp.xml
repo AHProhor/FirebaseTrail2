@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUppActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="SignUp Page"
+       android:layout_gravity="center"
+       android:textSize="30dp"
+       android:textColor="#ED5626"
+       android:textStyle="bold"
+       />
+
+    <EditText
+        android:id="@+id/fullNameId"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        tools:ignore="DuplicateIds" />
+    <EditText
+        android:id="@+id/userNameId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/phoneNumberId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/passwordId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/signUpButtonId"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign UP"
+        android:textStyle="bold"
+        />
+</LinearLayout>

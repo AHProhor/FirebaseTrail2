@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327847417091",
+    "project_id": "fir-trail2-dcd65",
+    "storage_bucket": "fir-trail2-dcd65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327847417091:android:5c945b49b9d112f01a0536",
+        "android_client_info": {
+          "package_name": "com.example.firebasetrail2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327847417091-gm9no3tk5qgamolq8i3rbkqm17j93het.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKwFVaHV3xx44WDr-xZ3xWz-Qkc3sUZJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327847417091-gm9no3tk5qgamolq8i3rbkqm17j93het.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
